@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BMW Error Code Lookup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div>
+        <p class="eyebrow">BMW Motorad R12 NineT 2024</p>
+        <h1>Error Code Lookup Tool</h1>
+
+      </div>
+    </header>
+
+    <section class="search-card">
+      <input id="q" type="search" placeholder="Search ID030, ID291, ABS, tyre pressure, engine..." autofocus />
+      <div class="tools">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="critical">Critical</button>
+        <button data-filter="warning">Warnings</button>
+        <button data-filter="info">Info</button>
+      </div>
+      <p id="status">Loading data...</p>
+    </section>
+
+    <section id="results" class="grid"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
